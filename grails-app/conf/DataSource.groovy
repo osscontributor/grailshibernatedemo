@@ -1,8 +1,11 @@
+import org.codehaus.groovy.grails.orm.hibernate.cfg.GrailsAnnotationConfiguration
+
 dataSource {
 	pooled = true
 	driverClassName = "org.hsqldb.jdbcDriver"
 	username = "sa"
 	password = ""
+    configClass = GrailsAnnotationConfiguration
 }
 hibernate {
     cache.use_second_level_cache=true
