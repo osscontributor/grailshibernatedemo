@@ -1,8 +1,7 @@
 A simple Grails app that demonstrates mapping Java domain
 classes as GORM domain classes.
 
-In
-particular, notice these files...
+In particular, notice these files...
 
 src/java/com/demo/Person.java
 grails-app/conf/hibernate/hibernate.cfg.xml
