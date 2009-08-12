@@ -7,5 +7,6 @@
     <session-factory>
         <mapping package="com.demo" />
         <mapping class="com.demo.Person" />
+        <mapping class="com.demo.Car" />
     </session-factory>
 </hibernate-configuration>
