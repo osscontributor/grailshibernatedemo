@@ -1,2 +1,13 @@
-A simple Grails app that demonstrates mapping a Java domain
-class as a GORM domain class.
+A simple Grails app that demonstrates mapping Java domain
+classes as GORM domain classes.
+
+In
+particular, notice these files...
+
+src/java/com/demo/Person.java
+grails-app/conf/hibernate/hibernate.cfg.xml
+grails-app/conf/DataSource.groovy
+lib/car.jar
+
+Person.java represents an annotated entity as well as
+the com.demo.Car class which is in lib/car.jar.
